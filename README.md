@@ -14,13 +14,15 @@ PHP 4+
 
 Upload _tigershark.php_ to your server. 
 
-Configure the path (in _tigershark.php_) where you want your data stored
+Configure the path (in _tigershark.php_) where you want your data stored:
 
 	$tshrk[dirr] = "tigershark/";
 
-Require tigershark in whatever file you want to use it.
+Require tigershark in whatever file you want to use it:
 
 	require("tigershark.php"); 
+	
+Profit.
 
 
 ### example usage ###
