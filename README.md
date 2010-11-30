@@ -5,7 +5,7 @@ tigershark!
 
 For those times when you need some _very basic_ CRUD functionality without all the overhead of using an actual database. If you know how to work with arrays, this is cake.
 
-If you're into the idea of NoSQL, but don't need the hardcore db features, don't want to spend any time on server configuration, don't need to store documents, then this is probably something you'll like.
+If you're into the idea of NoSQL, but don't need the hardcore db features, don't want to spend any time on server configuration, or don't need to store documents, then this is probably something you'll like.
 
 ### server requirements ###
 PHP 4+
