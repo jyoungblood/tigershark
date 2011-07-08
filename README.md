@@ -12,30 +12,30 @@ PHP 4+
 
 ### installation ###
 
-Upload _tigershark.php_ to your server. 
+1. Upload _tigershark.php_ to your server. 
 
-Configure the path (in _tigershark.php_) where you want your data stored:
+2. Configure the path (in _tigershark.php_) where you want your data stored:
 
 	$tshrk[dirr] = "tigershark/";
 
-Require tigershark in whatever file you want to use it:
+3. Require tigershark in whatever file you want to use it:
 
 	require("tigershark.php"); 
 	
-Profit.
+4. Profit.
 
 
 ### example usage ###
 
-Add your data with a key name:
+1. Add your data with a key name:
 	
 	tigershark_put("keyname","this is, like, the coolest song i've ever heard in my whole life");
 
-Get your data:
+2. Get your data:
 	
 	$fancydata = tigershark_get("keyname");
 
-Add your data as an array, nested it however deep you like:
+3. Add your data as an array, nested it however deep you like:
 
 	$css[body][bgcolor] = "#fff;";
 	$css[body][color] = "#000;";
@@ -44,13 +44,13 @@ Add your data as an array, nested it however deep you like:
 	
 	tigershark_put("fancycss",$css);
 
-Get it:
+4. Get it:
 
 	$fancycss = tigershark_get("fancycss");
 	
 	echo $fancycss[a][color];
 
-Delete it:
+5. Delete it:
 
 	tigershark_kill("keyname");
 
